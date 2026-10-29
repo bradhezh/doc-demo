@@ -7,8 +7,8 @@ import rehypeMathjax from "rehype-mathjax";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Markdown Example",
-  tagline: "A comprehensive Markdown example using Docusaurus",
+  title: "Docusaurus Demo",
+  tagline: "",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,12 +20,12 @@ const config: Config = {
   url: "https://bradhezh.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/markdown-example/",
+  baseUrl: "/doc-demo/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "bradhezh", // Usually your GitHub org/user name.
-  projectName: "markdown-example", // Usually your repo name.
+  projectName: "doc-demo", // Usually your repo name.
 
   onBrokenLinks: "throw",
 
@@ -82,7 +82,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "Markdown Example",
+      title: "Docusaurus Demo",
       logo: {
         alt: "",
         src: "img/logo.svg",
@@ -98,7 +98,7 @@ const config: Config = {
         { to: "/blog", label: "Blog", position: "left" },
         */
         {
-          href: "https://github.com/bradhezh/markdown-example",
+          href: "https://github.com/bradhezh/doc-demo",
           label: "GitHub",
           position: "right",
         },
