@@ -1,8 +1,7 @@
 ---
 title: Chapter 1. Introduction
-slug: /
 ---
 
-This is the introduction. `slug: /` make this the root.
+This is the introduction.
 
 Another long paragraph, word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word.
